@@ -1,0 +1,4 @@
+npm install react-router-dom
+
+Si quiero una pagina que tenga rutas debo colocal een el encabezado del codigo:
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
