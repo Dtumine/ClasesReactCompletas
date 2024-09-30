@@ -13,11 +13,10 @@ import Referentes from './componentes/Referentes';
 function App() {
   return ( 
     <Router> 
-
+ 
       <div className="App bg-blue-400">
       
           <Header1 />
-
           <Routes>
           <Route path="/" element={<Home/>} /> 
           <Route path="/referentes" element={<Referentes/>}/>

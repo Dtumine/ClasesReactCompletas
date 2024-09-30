@@ -16,7 +16,7 @@ export default function Card3() {
           <div className="text-sm text-muted-foreground">Gobernador</div>
           <div className="text-sm text-muted-foreground">Partido Justicialista</div>
         </div>
-        <hr className="border-t border-muted-foreground" />
+        <hr className="border-t border-muted-foreground"/>
         <div className="prose text-muted-foreground">
           <p>
             Axel Kicillof (Buenos Aires, 25 de septiembre de 1971) es un economista, político, docente,

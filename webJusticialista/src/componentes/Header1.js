@@ -4,8 +4,8 @@ export default function Header1() {
       <header className="bg-gradient-to-b from-blue-600 to-blue-400 py-6 shadow-lg">
         <div className="container mx-auto flex items-center justify-between px-4 md:px-8">
           <a href="/home" className="flex items-center">
-            <img src="https://media.urgente24.com/p/34677c92a0cf44660f1b4adccd1d693d/adjuntos/319/imagenes/002/922/0002922614/1200x0/smart/peronismojpg.jpg"  
-            className="w-8 h-7 rounded-full mb-0 " />
+            <img src="https://firebasestorage.googleapis.com/v0/b/archivosprueba-75094.appspot.com/o/logojp.png?alt=media&token=791f1e7b-46a8-4a69-b533-3c9b585230a6"  
+            className="w-8 h-9 rounded-full mb-0 " />
             <span className="ml-3 text-3xl font-bold text-white tracking-wide">
               Partido Justicialista
             </span>
