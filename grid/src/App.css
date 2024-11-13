@@ -1,0 +1,148 @@
+.App {
+  /* text-align: center; */ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container{
+  background-color: rgb(220, 134, 101);
+  border: 3px solid black;
+  border-radius: 10px;
+  display: grid; 
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  gap: 4px; 
+  height: 100vh;
+} 
+
+
+
+.container div{
+  background-color: rgb(149, 218, 241);
+  border: 2px solid #09f;
+  border-radius: 6px; 
+} 
+
+
+.container .Caja1{
+ 
+  background-color: rgb(87, 240, 87); 
+  grid-column: 1/3;
+  grid-row: 4/5;
+
+} 
+
+.container .Caja2{ 
+   background-color: rgb(255, 109, 133); 
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); 
+   grid-template-rows: 1fr 1fr; 
+   gap: 3px;
+
+} 
+
+.Caja2 .Blanco{
+  background-color: white; 
+
+
+} 
+
+.Caja2 .Rojo{
+  background-color: red; 
+  grid-column: 4/5;
+  grid-row: 2/3;
+ 
+
+} 
+
+.Caja2 .Verde{
+  background-color: green;
+ 
+}
+
+.Caja2 .Azul{
+  background-color: blue; 
+
+ 
+}
+
+
+.Boton{ 
+ 
+  font-size: 20px;
+  border-radius: 10px; 
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+.ContenedorSection{
+  
+  display: grid; 
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr); 
+ 
+  height: 100vh;
+} 
+
+.ContenedorSection header{ 
+  background-color: blue; 
+} 
+
+.ContenedorSection aside{ 
+ 
+  background-color: yellowgreen; 
+} 
+
+.ContenedorSection .SideBar{ 
+
+  background-color: rgb(62, 94, 208); 
+} 
+
+
+.ContenedorSection main{ 
+
+  background-color: pink; 
+} 
+
+.ContenedorSection footer{ 
+
+  background-color: lightblue; 
+}

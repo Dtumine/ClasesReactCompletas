@@ -1,0 +1,74 @@
+.App {
+  position: relative;
+  text-align: center;
+  background-color: #000000; /* Fondo blanco */
+  min-height: 100vh; /* Ocupar toda la altura de la pantalla */
+  display: grid; 
+  grid-template-columns: repeat(12, 1fr); 
+  grid-template-rows: repeat(12, 30px); 
+  
+}
+ 
+
+
+
+.App-logo { 
+  height: 40vmin;
+  pointer-events: none;
+ /* z-index: 1; /* Asegura que el logo esté encima de las partículas */
+  position: relative;
+} 
+
+
+
+
+
+/* Animación para el movimiento aleatorio de las partículas */
+@keyframes moveParticle {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x), var(--y)); /* Movimiento en direcciones aleatorias */
+  }
+}
+
+/* Estilos del contenedor de las partículas */
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /*Longitud de la pantalla*/
+  height: 100%;
+  overflow: hidden;
+  z-index: 3; /* Asegura que las partículas estén detrás del logo */
+  pointer-events: none;
+}
+
+/* Estilos para cada partícula */
+.particle {
+  position: absolute;
+  background-color: #adccf5; /* Azul celeste */
+  border-radius: 100%;
+  opacity: 0;
+  animation: moveParticle 8s ease-in-out infinite;
+  animation-delay: calc(var(--delay) * 1s); /* Retraso aleatorio */
+} 
+
+.RMLogo{
+  background-color: blue; 
+  grid-column: 4/6;
+  grid-row: 7/8;
+}
+
+
+
+.ContenedorFooter{
+  background-color: blue;
+  grid-column: 4/5;
+}
